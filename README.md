@@ -19,26 +19,26 @@ This is a **descriptive analytics** project and does not aim to establish causal
 - Germany's share of signups increases steadily and reaches ~40% by 2023
 - Italy's signups drop to 0 in 2023 due to halted onboarding after 2022
 - Austria and Northern Europe are the smallest but consistent markets
+<img width="683" height="386" alt="image" src="https://github.com/user-attachments/assets/fc8b1755-51f1-4d38-b34e-4ac6cf11835e" />
 
 ### Acquisition Funnel (Signup → KYC → FTMAU)
 - Austria leads overall conversion from signup to FTMAU (~59%); Germany and Spain also perform strongly
 - France and Northern Europe have weaker conversion rates and leaky funnels
 - KYC completion is relatively strong in AUT/ESP/DEU/ITA and weaker in France
+<img width="682" height="380" alt="image" src="https://github.com/user-attachments/assets/2ec7550a-0f82-4219-b7e7-ff5f3e85f0bb" />
 
 ### Engagement (Net Active Users)
 - 2022 shows a negative change in net active users in **all markets** (broad engagement decline)
 - Germany, Spain, France, and Italy recover in 2023 but remain below 2019 levels
 - Spain shows one of the strongest recoveries in 2023
+<img width="686" height="387" alt="image" src="https://github.com/user-attachments/assets/42964150-14fb-40cb-96d5-7f932fa16527" />
 
 ### Retention (Churn & Reactivation)
 - France and Germany have the highest churn rates (6-7%), partly reflecting their large user bases
 - Austria and Germany show strong reactivation rates (~89-91%)
 - Reactivation rates generally improve over time across all markets
-
-<img width="683" height="386" alt="image" src="https://github.com/user-attachments/assets/fc8b1755-51f1-4d38-b34e-4ac6cf11835e" />
-<img width="682" height="380" alt="image" src="https://github.com/user-attachments/assets/2ec7550a-0f82-4219-b7e7-ff5f3e85f0bb" />
-<img width="686" height="387" alt="image" src="https://github.com/user-attachments/assets/42964150-14fb-40cb-96d5-7f932fa16527" />
 <img width="686" height="388" alt="image" src="https://github.com/user-attachments/assets/1aec64c4-89fc-43e3-b489-fee4a525b612" />
+
 
 
 ## Repository Structure
@@ -79,27 +79,6 @@ Churn rate = churnedmau / lapsedmau
 - Global/GLO/USA segments dropped to focus on European markets
 - Duplicate rows removed (exact matches across all key metrics)
 - 2017/2024 excluded due to incomplete data
-
-##  How to Reproduce
-
-### 1. Python Environment
-```bash
-pip install pandas numpy matplotlib seaborn jupyter
-jupyter notebook Marketing-data-analysis_Python.ipynb
-```
-
-
-### 2. SQL (Postgres)
-
-```sql
--- Run create table + insert queries, then aggregation queries
--- See Marketing-data-analysis_SQL.sql
-```
-
-
-### 3. Excel
-
-- Open `Marketing-data-analysis_Excel_vf.xlsx` for pivots and refresh data
 
 
 ## Tools Used
