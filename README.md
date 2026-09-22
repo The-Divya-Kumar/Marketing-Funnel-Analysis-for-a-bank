@@ -35,6 +35,12 @@ This is a **descriptive analytics** project and does not aim to establish causal
 - Austria and Germany show strong reactivation rates (~89-91%)
 - Reactivation rates generally improve over time across all markets
 
+<img width="683" height="386" alt="image" src="https://github.com/user-attachments/assets/fc8b1755-51f1-4d38-b34e-4ac6cf11835e" />
+<img width="682" height="380" alt="image" src="https://github.com/user-attachments/assets/2ec7550a-0f82-4219-b7e7-ff5f3e85f0bb" />
+<img width="686" height="387" alt="image" src="https://github.com/user-attachments/assets/42964150-14fb-40cb-96d5-7f932fa16527" />
+<img width="686" height="388" alt="image" src="https://github.com/user-attachments/assets/1aec64c4-89fc-43e3-b489-fee4a525b612" />
+
+
 ## Repository Structure
 
 | File | Purpose |
